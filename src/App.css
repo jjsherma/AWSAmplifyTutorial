@@ -23,6 +23,10 @@
   color: #61dafb;
 }
 
+.Color-text{
+  animation: Color-change infinite 10s linear;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -30,4 +34,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@keyframes Color-change {
+  0% {color: #ffffff;}
+  10% {color: #ffe6e6;}
+  20% {color: #ffcccc;}
+  30% {color: #ffb3b3;}
+  40% {color: #ff9999;}
+  50% {color: #ff8080;}
+  60% {color: #ff9999;}
+  70% {color: #ffb3b3;}
+  80% {color: #ffcccc;}
+  90% {color: #ffe6e6;}
+  100% {color: #ffffff;}
 }
